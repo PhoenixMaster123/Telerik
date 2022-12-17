@@ -1,0 +1,21 @@
+
+button
+{           
+    border-radius: 40px;
+    background-color: #4df1ff;
+    padding: 10px;
+}
+legend
+{
+    font-size: 26px;
+}
+body
+{
+    background-color: rgb(236, 236, 236);
+    font-size: 26px;
+    font-family:'Comfortaa';
+}
+fieldset
+{
+    background-color: rgb(236, 236, 236)
+}
