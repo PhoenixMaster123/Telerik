@@ -1,0 +1,16 @@
+h1
+{
+    text-align: center;
+}
+input[type=radio] 
+{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 100px;
+}
+form button
+{
+    background-color: aqua;
+    color: royalblue
+    
+}
