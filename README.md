@@ -1,4 +1,4 @@
-# Telerik <img src="https://webassets.azureedge.net/images/default-sou…ogos/telerik-academy-school.svg?sfvrsn=419d6f60_6" alt="Alt text" title="Telerik Academy">
+# Telerik ![](images/https://webassets.azureedge.net/images/default-sou…ogos/telerik-academy-school.svg?sfvrsn=419d6f60_6)
 🎓  Passed Courses and their Certificates
 
 | Courses  | Certificates |
