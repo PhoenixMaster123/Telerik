@@ -1,0 +1,99 @@
+<!-- *********************************** -->
+<!-- **** Училищна Телерик Академия **** -->
+<!-- *********************************** -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="coding-isometric.png">
+    <title>Въведение е CSS</title>
+
+    <!-- Свързване на двамвъншни .css файлове -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="form.css">
+
+    <!-- Влагане на CSS между тагове style -->
+    <style>
+        /* Селектиране на всички тагове body в документа */
+        body {
+            /* Промяна на фоновия цвят на цялата страница */
+            background-color: rgb(221, 15, 135);
+        }
+
+        /* Селектиране на всички тагове form в документа */
+        form {
+            /* Промяна на шрифта на текста на всички, което е в таг form */
+            font-family: 'Brush Script MT';
+        }
+
+        /* Селектиране на всички тагове fieldset в документа */
+        fieldset {
+            /* Промяна на фоновия цвят на filedset полетата */
+            background-color: rgb(255, 36, 244);
+            /* Промяна на цвета на текста във fieldset полетата */
+            color: rgb(37, 245, 10);
+        }
+
+        /* Селектиране на всички тагове legend в документа */
+        legend {
+            /* Промяна на размера на текста в таг legend */
+            /* СЪЩАТА ХАРАКТЕРИСТИКА ПРОМЕНЯМЕ И ВЪВ form.css файла, за да тестваме коя промяна ще бъде отразена */
+            font-size: 6px;
+           
+        }
+        
+    </style>
+</head>
+
+<body>
+    <!-- Вложени CSS правила за промяна на цвета и размера на текста -->
+    <h6 style="color: rgb(0, 255, 0); font-size: 30px;">
+        Анкета за вкусови предпочитания
+    </h6>
+
+    <form>
+        <fieldset>
+            <legend>Лични данни</legend>
+            <input type='text' placeholder="Име">
+            <input type='text' placeholder="Фамилия">
+            <br><br>
+            <button type="submit">Изпрати</button>
+            <button type="reset">Рестартирай</button>
+
+        </fieldset>
+
+        <fieldset>
+            <!-- Вложени CSS правила за промяна на размера на текста -->
+            <!-- СЪЩАТА ХАРАКТЕРИСТИКА ПРОМЕНЯМЕ И ВЪВ form.css файла, и в тага style в началото на документа, за да тестваме коя промяна ще бъде отразена -->
+            <legend style='font-size: 30px;'>Предочитания за меню</legend>
+            <input name='0' type='radio'>Нямам<br>
+            <input name='0' type='radio'>Вегетарианец<br>
+            <input name='0' type='radio'>Веган<br>
+
+            <textarea rows="10" placeholder="Пояснения..."></textarea>
+            <br><br>
+
+            <button type="submit">Изпрати</button>
+            <button type="reset">Рестартирай</button>
+        </fieldset>
+
+       
+        <fieldset>
+            <legend>Лични данни</legend>
+            <input type='text' placeholder="Име">
+            <input type='text' placeholder="Фамилия">
+            <br><br>
+            <button type="submit">Изпрати</button>
+            <button type="reset">Рестартирай</button>
+
+        </fieldset>
+
+    </form>
+
+</body>
+
+</html>

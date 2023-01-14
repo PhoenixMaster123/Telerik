@@ -1,0 +1,91 @@
+/* ***********************************
+**** Училищна Телерик Академия ****
+*********************************** */
+
+/* Не сме учили нещата в този файл */
+
+* {
+    font-family: 'Times New Roman', cursive;
+    font-weight: 100;
+}
+
+input[type=text],
+fieldset>textarea[placeholder],
+fieldset>select {
+    margin: 5px 10px;
+    padding: 5px;
+    width: 50%;
+}
+
+input[type=radio] {
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    background-color: #11dbba;
+    vertical-align: middle;
+
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type=radio]:hover {
+    background-color: #e4a215;
+}
+
+input[type=radio]:checked {
+    background-color: #eb2415;
+}
+
+button[type] {
+    padding: 10px;
+    margin: 5px 5px 5px 10px;
+    color: rgba(43, 0, 233, 0.952);
+    background: #0cddd3b9;
+    border: 1px solid #11cfff;
+    box-shadow: 0 6px 18px 0 #490eec;
+    transition: all 350ms ease;
+    text-align: center;
+    border-radius: 5px;
+    padding: 1rem 3rem;
+}
+
+button[type]:hover {
+    background-color: #ff0051;
+    box-shadow: 1px 1px 16px 0px #ff4d85dd;
+    font-size: 16px;
+    padding: 16px 20px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #fff;
+    border: 0;
+
+}
+fieldset {
+    vertical-align: top;
+    box-shadow: 0 6px 14px 0 rgba(0, 0, 0, .12);
+    border: 1px solid #3ad414;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 25px;
+    width: 30%;
+}
+
+fieldset>legend {
+    text-align: left;
+    font-size: 2rem;
+    font-family: 'Copperplate', sans-serif;
+    font-weight: 200;
+}
+
+fieldset:hover {
+    box-shadow: 0 6px 18px 0 #bdd0fd;
+    transition: box-shadow 350ms ease-in-out;
+}

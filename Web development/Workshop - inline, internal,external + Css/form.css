@@ -1,0 +1,36 @@
+/* ***********************************
+**** Училищна Телерик Академия ****
+*********************************** */
+
+
+
+/* Създаване на селектор за всички тагове legend в документа */
+legend {
+    /* Промяна на размера на текста */
+    /* Същата характеристика променяме на още две места във файла, за да видим коя промяна ще се отрази */
+    font-size: 80px;
+}
+* {
+    font-family: 'Comfortaa';
+}
+
+fieldset {
+    display: inline;
+    box-shadow: 0 6px 14px 0 rgba(0, 0, 0, .12);
+    border: rgba(0, 0, 0, .12);
+    margin-bottom: 16px;
+    background-color: #fff;
+}
+
+
+button {
+    background-color: #ff0051;
+    box-shadow: 1px 1px 16px 0px #ff4d85dd;
+    font-size: 16px;
+    padding: 16px 20px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #fff;
+    border: 0;
+}
