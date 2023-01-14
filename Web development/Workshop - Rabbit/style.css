@@ -1,0 +1,14 @@
+body
+{
+    background: #124;
+    color: white;
+}
+b
+{
+    filter: drop-shadow(0 0 20px white) drop-shadow(0 0 60px white);
+}
+a
+{
+    color: aqua;
+    filter: drop-shadow(0 0 20px aqua) drop-shadow(0 0 60px aqua);
+}
